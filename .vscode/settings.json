@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xlocale": "cpp",
+        "xlocmon": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
