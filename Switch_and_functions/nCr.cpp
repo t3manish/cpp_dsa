@@ -22,8 +22,8 @@ int factorial(int n){
 }
 
 int nCr(int n, int r){
-    int num = factorial(n);
-    int demoni = factorial(r) * factorial(n-r);
+    int num = factorial(n);//numerator
+    int demoni = factorial(r) * factorial(n-r);//denominator
     return num/demoni;
 }
 
