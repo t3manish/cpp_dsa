@@ -64,7 +64,7 @@ int searchSpace(vector<int> & arr, int n , int m){
     int e = 0;   // End of our search range (max pages)
     int ans = 0; // This will store our final answer
     int sum = 0; 
-
+    if (m > n) return -1; //GPT
     // First, we add up all the pages to know the biggest sum possible
     for (int i = 0; i < n; i++)
     {
